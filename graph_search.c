@@ -38,7 +38,7 @@ void insertVertex(Graph* graph, int v) {
     if (v >= 0 && v < MAX_VERTEX) {  //Vertex 번호가 유효한지 확인
         if (graph->adjLists[v] == NULL) {  //Vertex가 존재하지 않으면
             graph->adjLists[v] = createNode(v);  //새로운 Vertex 추가
-            printf("%d inserted.\n", v);  //성공 메시지 출력
+            printf("%d is inserted.\n", v);  //성공 메시지 출력
         } else {
             printf("%d already exists.\n", v);  //이미 존재하는 경우 메시지 출력
         }
