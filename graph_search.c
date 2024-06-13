@@ -183,6 +183,7 @@ void resetVisited(Graph* graph) {
 }
 
 int main() {
+    printf("[----- [LeeSeungHun] [2023041045] -----]");
     char command;  //사용자 명령어 입력 변수
     int vertex, src, dest;
     Graph* graph = createGraph();  //그래프 초기화
